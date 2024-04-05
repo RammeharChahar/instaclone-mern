@@ -1,0 +1,25 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+}
+.side_logo{
+    display: flex;
+    /* justify-content: center; */
+   
+}
+.logo{
+   margin: 20px;
+   margin-left: 90px;
+}
+.sidebar_buttons{
+    display: flex;
+    flex-direction: column;
+}
+.side_btn{
+
+}
+.link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #1976d2;
+  }

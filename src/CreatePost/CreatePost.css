@@ -1,0 +1,31 @@
+body{
+   
+}
+.postWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inputFileBox{
+    width: 100%;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.spanText{
+    color: black;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1976d2;
+    margin-left: 25px;
+}
