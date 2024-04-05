@@ -32,7 +32,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-app.use('/api/posts', postsRouter);
+app.use('https://instaclone-mern-api.vercel.app/api/posts', postsRouter);
 
 // Socket.io
 io.on('connection', (socket) => {
